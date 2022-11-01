@@ -1,0 +1,15 @@
+footer {
+    background-color: #030303;
+    text-align: center;
+    color: #adadad;
+}
+
+footer p {
+    margin: 0;
+}
+
+@media screen and (max-width: 768px) {
+    footer {
+        padding: 60px 20px;
+    }
+}

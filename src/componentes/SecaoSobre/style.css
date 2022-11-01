@@ -1,0 +1,84 @@
+.SecaoSobre {
+    background-color: #f8f7ff;
+    padding: 30px 20px;
+    text-align: center;
+}
+
+.QuemSomos p {
+    line-height: 32px;
+}
+
+.card-sobre {
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card-sobre img, .card-sobre div {
+    width: 50%;
+    max-height: 300px;
+    border: 1px solid #a2adad;
+}
+
+.card-sobre-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #fff;
+    padding: 20px 25px;
+}
+
+.card-sobre-info h3 {
+    font-size: 36px;
+    text-transform: uppercase;
+    font-family: 'Anybody';
+    letter-spacing: 5px;
+    line-height: 42px;
+}
+
+.card-sobre-info p {
+    font-size: 22px;
+    color: #a4a4a4;
+}
+
+@media screen and (max-width: 768px) {
+    .SecaoSobre {
+        padding: 60px 20px;
+    }
+
+    .card-sobre-info {
+        padding: 15px;
+    }
+
+    .card-sobre-info h3 {
+        font-size: 22px;
+    }
+
+    .card-sobre-info p {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .SecaoSobre {
+        padding: 30px 10px;
+    }
+
+    .card-sobre {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .card-sobre-reverse {
+        flex-direction: column-reverse !important;
+    }
+
+    .card-sobre img, .card-sobre div {
+        width: 100%;
+        height: 300px;
+    }
+
+    .order2 {
+        order: 2;
+    }
+}

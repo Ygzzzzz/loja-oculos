@@ -1,0 +1,52 @@
+.SecaoContato {
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    padding: 100px 20px;
+    background-color: #05031b;
+}
+
+.entre-contato {
+    display: flex;
+    flex-direction: row;  
+   justify-content: center;
+}
+
+.contato-dados {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 15px;
+}
+
+.contato-dados img {
+    width: 20px;
+    margin-right: 5px;
+}
+
+.contato-dados figure {
+    display: flex;
+    flex-direction: row;
+    margin: 5px 5px;
+}
+
+.contato-dados figcaption {
+    font-size: 14px;
+    margin-left: 10px;
+}
+
+@media screen and (max-width: 550px) {
+    .contato-dados p {
+        font-size: 14px;
+    }
+
+    .contato-dados figcaption {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .SecaoContato {
+        padding: 100px 10px;
+    }
+}

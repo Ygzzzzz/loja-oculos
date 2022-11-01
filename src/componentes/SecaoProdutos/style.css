@@ -1,0 +1,100 @@
+.Secao-Produtos {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.produtos {
+    margin: 50px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.card {
+    background-color: #f6f6f6;
+    width: calc(50% - 15px);
+    padding: 20px 10px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card h3 {
+    margin: 0;
+    font-size: 32px;
+}
+
+.card img {
+    width: 80%;
+    max-height: 150px;
+    margin: 30px 0;
+}
+
+.card p {
+    margin: 0;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.Secao-Produtos ul {
+    padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Secao-Produtos li {
+    text-align: left;
+    margin: 5px;
+}
+
+@media screen and (max-width: 768px) {
+    .Secao-Produtos {
+        padding: 60px 20px;
+    }
+
+    .card h3 {
+        font-size: 22px;
+    }
+
+    .card img {
+        max-height: 100px;
+    }
+
+    .card p {
+        font-size: 16px;
+    }
+
+    .Secao-Produtos ul {
+        padding: 0 10px;
+    }
+
+    .Secao-Produtos li {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .Secao-Produtos {
+        padding: 100px 10px;
+    }
+
+    .card {
+        width: 100%;
+    }
+
+    .Secao-Produtos ul {
+        display: flex;
+        flex-direction: column; 
+        align-items: flex-start;      
+        text-align: center;  
+    }
+
+    .Secao-Produtos li {
+        text-align: left;
+    }
+}
