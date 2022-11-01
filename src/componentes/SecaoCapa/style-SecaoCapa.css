@@ -34,6 +34,14 @@
 }
 
 @media screen and (max-width: 768px){
+    .capa {
+        background-position: 77% center;
+    }
+
+    .texto-capa {
+        background-color: rgba(0, 0, 0, 0.6);
+    }
+
     .texto-capa h1 {
         font-size: 40px;
         max-width: 350px;
@@ -47,7 +55,7 @@
 @media screen and (max-width: 550px) {
     .capa {
         background-position: 77% center;
-        background-color: contain;
+        background-size: cover;
     }
 
     .texto-capa {

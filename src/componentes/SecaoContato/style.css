@@ -49,4 +49,24 @@
     .SecaoContato {
         padding: 100px 10px;
     }
+
+    .contato-dados {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contato-dados img {
+        width: 35px;
+    }
+
+    .contato-dados figcaption {
+        font-size: 20px;
+    }
+
+    .entre-contato {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 }
